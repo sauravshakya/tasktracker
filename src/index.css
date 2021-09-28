@@ -11,3 +11,62 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.container{
+  width: 306px;
+  height: 1000px;
+  margin: auto;
+}
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 1px solid #000;
+}
+.header h1{
+  display: 50%;
+}
+.header button{
+  display: 50%;
+}
+.task{
+    width: 300px;
+    height: 10opx;
+    background-color: burlywood;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #000;
+}
+.task.reminder {
+  border-left: 5px solid green;
+}
+.add-form .form-control label{
+  font-size: 17px;
+  display: block;
+  font-weight: 700;
+}
+.add-form .form-control input{
+  font-size: 17px;
+  display: block;
+  width: 300px;
+  margin-bottom: 20px;
+  margin-top:6px;
+}
+.add-form .form-control-check{
+  display: flex;
+  width: 300px;
+}
+.add-form .form-control-check label{
+  flex: 50%; 
+  font-weight: 700;
+}
+.add-form .form-control-check input{ 
+  flex: 50%; 
+}
+.add-form .btn.btn-block{
+  width: 308px;
+  background-color: rgb(57, 194, 11);
+  height: 30px;
+  margin-bottom: 30px;
+}
